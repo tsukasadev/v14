@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="/website/css/uicons-outline-rounded.css"
+rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>xainowAi | homePage</title>
+</head>
+<div class="menu-hamburger">
+    <button class="menu" onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))" aria-label="Main Menu">
+        <svg width="100" height="100" viewBox="0 0 100 100">
+          <path class="line line1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+          <path class="line line2" d="M 20,50 H 80" />
+          <path class="line line3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+        </svg>
+      </button>
+</div>
+<!--navbar-->
+<header  data-aos="fade-right">
+    <nav class="nav">
+        <div class="logo">
+            XainowAi Corp
+        </div>
+        <div class="nav-links">
+            <ul>
+                <li>
+                    <a href="index.html">home</a>
+                    <a href="contact.html">contact</a>
+                    <a href="https://discord.gg/gX9xhggn">discord</a>
+                    <a href="bot.html">bot</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<body>
+    <!--container-->
+    <div class="container" data-aos="fade-left">
+        <!--partie gauche-->
+        <div class="left">
+            <h1 class="first-title" data-aos="flip-up">XainowAi, le futur de l'<span style="font-weight: 200;">informatique</span></h1>
+            <p ><span class="p-span">Notre entreprise est un leader en robotique, AI et protection de la population .Notre équipe de professionnels offre les meilleurs services tout en s'engageant en faveur de la qualité, de la transparence et de la satisfaction client.</span> </p>
+            <!--points-clés-->
+            <div class="keys-points" >
+                <div class="content"><img src="protection.png" alt="image-sécurité"><h1>Sécurité <p>Nous porméttons votre sécurité.</p></h1></div>
+                <div class="content"><img src="developper.png" alt="image-developpeur"><h1>Développer <p>Nous développons souvent avec nos partenaires. </p></h1></div>
+                <div class="content"><img src="lancer.png" alt="image-lancement"><h1>Lancer <p>Nous lançons constamment de nouvelles choses.</p></h1></div>
+            </div>
+        </div>
+        <!--partie droite-->
+        <div class="right">
+            <img src="robot.jpg" alt="bannière-left">
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<footer><h1 class="title">XainowAi Corp</h1>
+    <div class="item">
+        <div class="footer-item"><h1>solutions </h1><ul><li><a href="">rapide</a>
+            <a href="">facile</a>
+            <a href="">utile</a></li></ul></div>
+            <div class="footer-item"><h1>products </h1><ul><li><a href="">serveur</a>
+                <a href="">bot</a>
+                <a href="">ia</a></li></ul></div>
+                <div class="footer-item"><h1>xainowAi</h1><ul><li><a href="">contact</a>
+                    <a href="">about me</a</li></ul></div>
+                        <div class="footer-item"><div class="content"><a href="">xainowai@gmail.com</a><a href="">https://gihtub.com/XainowAi</a></div>
+                    <div class="icones"><a href=""><img src="discord2.png" alt=""></a><a href="github.png"><img src="" alt=""></a></div></div>
+    </div>
+</footer>
+</html>
